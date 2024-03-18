@@ -34,7 +34,6 @@
                 {% endfor %}
             </ul>
         {% endif %}
-        <p>{{ form.recaptcha() }}</p>
         <p>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
         {% if form.remember_me.errors %}
             <ul class="errors">

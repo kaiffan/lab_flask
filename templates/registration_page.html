@@ -67,7 +67,6 @@
                 {% endfor %}
             </ul>
         {% endif %}
-        <p>{{ form.recaptcha() }}</p>
         <p>{{ form.accept_rules() }} {{ form.accept_rules.label }}</p>
         {% if form.accept_rules.errors %}
             <ul class="errors">
